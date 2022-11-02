@@ -17,6 +17,10 @@ number_students = 20
 string_teachers = "4"
 numberDogs = 0
 
+puts ""
+puts "Start Part 1"
+puts ""
+
 # EXAMPLE: print the result of the comparison: is number_seachers greater than number_students?
 puts "Is number_teachers greater than number_students?", number_teachers > number_students
 # this should print: "Is numberTeachers greater than numberStudents?" false
@@ -65,22 +69,26 @@ puts "Is number_students less than or equal to 21?", number_students <= 21
 # Be as technically precise as possible, but don't just copy and paste a definition from the readings.
 # Make sure YOU can explain it that way!
 
+puts ""
+puts "Start part 2"
+puts ""
+
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: Evaluating if 4 is less than 9, which is true
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: defines "books" as 3, and evaluates if 4 is less books, which is false
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO: defines friends as 6 and siblings as 2, and evaluats if 6>2, which is true
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# YOU DO: defines attendees as 9 and meals as 8. Then evaluates if attendees does NOT equal meals, which is true.
 
 
 #-------------------
