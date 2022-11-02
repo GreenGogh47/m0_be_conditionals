@@ -9,7 +9,7 @@
 ## Directions
 
 Read the directions and complete all activities in each file, in this order:
-- `comparisons.rb`
+- `comparisons.rb` DONE
 - `if_statements.rb`
 - `code_challenges/README.md`
 - `self_evaluation.md`
