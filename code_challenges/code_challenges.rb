@@ -5,11 +5,25 @@
 
 number = 5
 
+#Solution 1
 if number % 2 == 0
     puts "this is an even number"
 else
     puts "this is an odd number"
 end
+puts ""
+puts ""
+
+# Solution 2
+
+if number.even?
+    puts "this is an even number"
+else
+    puts "this is an odd number"
+end
+puts ""
+puts ""
+
 
 ## Medium
 # Using the following variables:
@@ -23,7 +37,10 @@ age = 23
 # - If the user either has a good record or is over 25 years old, they should pay full price
 # - If the user is not over 25 and has a bad driving record, they need to have someone else sign for the rental
 
-if good_driving_record == true && age >= 25
+# if good_driving_record == true && age >= 25
+# == true isn't necessary because has_sauce is a boolian value already
+
+if good_driving_record && age >= 25
     puts "they should get a discount on the car rental"
 elsif good_driving_record == true || age >= 25
     puts "they should pay full price for the rental"
